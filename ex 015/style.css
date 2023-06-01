@@ -1,0 +1,18 @@
+body {
+    background-color: indianred;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h1 {
+    background-color: rgb(172, 97, 6);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color: aliceblue;
+
+}
+
+p {
+    text-align: justify;
+}
