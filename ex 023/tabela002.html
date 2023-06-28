@@ -9,12 +9,22 @@
 <style>
     body {
         font-family: Arial, Helvetica, sans-serif;
+        background-image: url(imagem/wallpaper002.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
     }
 
     table {
         width: 500px;
         border-collapse: collapse;
+        margin: auto;
     }
+
 
     td,
     th {
@@ -27,18 +37,34 @@
         color: white;
     }
 
+    tbody>tr:nth-child(odd) {
+        background-color: white;
+    }
+
+    tbody>tr:nth-child(even) {
+        background-color: lightgrey;
+    }
+
     tfoot {
         background-color: grey;
         color: white;
     }
 
-    .num{
-    text-align: right;}
+    .num {
+        text-align: right;
+    }
 
-    .total{
-    background-color: lightcoral;}
+    .total {
+        background-color: lightcoral;
+    }
 
-    
+    caption {
+        font-family: 1.5em;
+        background-color: lightgrey;
+        padding: 10px;
+        font-weight: bolder;
+
+    }
 </style>
 
 <body>
@@ -48,7 +74,9 @@
     <table>
 
 
-
+        <caption>
+            Populacao Das Unidades Federativas
+        </caption>
 
 
         <thead>
@@ -228,7 +256,7 @@
 
 
 
-        
+
 
 
     </table>
